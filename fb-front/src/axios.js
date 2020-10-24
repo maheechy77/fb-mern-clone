@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios'
 
-const intance = {
-	baseURL: "https://fb-clone-fullstack.herokuapp.com/",
-};
+const instance = axios.create({
+    baseURL: 'http://localhost:9000'
+})
 
-export default intance;
+export default instance
